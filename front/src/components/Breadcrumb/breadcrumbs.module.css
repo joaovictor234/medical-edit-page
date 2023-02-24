@@ -1,0 +1,62 @@
+.container {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+.home_icon {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0;
+  margin: 0;
+}
+.text {
+  font-weight: 300;
+  font-size: 15px;
+}
+.active {
+  color: #00C7E8;
+}
+.date {
+  display: block;
+  font-size: 13px;
+  text-align: start;
+}
+.manager_container {
+  display: flex;
+  align-items: center;
+}
+.manager_icons {
+  font-weight: 100;
+  padding: 5px;
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.54);
+  transition: 300ms;
+}
+.manager_icons:hover {
+  color: #00C7E8;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.1);
+}
+.unidade {
+  display: flex;
+  align-items: center;
+  padding: 2px 10px 2px 20px;
+  border-left: 1px solid rgba(0,0,0,.1);
+}
+.unidade div h6 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+.unidade div p {
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  font-size: 13px;
+}
+.unidade_icon {
+  color: rgba(0, 0, 0, 0.54);
+  margin-left: 10px;
+}

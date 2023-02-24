@@ -1,0 +1,43 @@
+.avatar_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 10px;
+  width: 100%;
+}
+.avatar_container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar_container div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.avatar_container div div p {
+  margin: 0;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.avatar {
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.name {
+  font-weight: bold;
+}
+.avatar_container button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.avatar_online {
+  border-radius: 50%;
+  background-color: #28BA22;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 19px;
+  left: 50px;
+}

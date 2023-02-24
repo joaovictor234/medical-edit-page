@@ -1,0 +1,6 @@
+#dependencies
+/back/node_modules
+/front/node_modules
+
+/front/package-lock.json
+/back/package-lock.json

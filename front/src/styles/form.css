@@ -1,0 +1,76 @@
+.form_container {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: rgba(204, 204, 204, .1);
+}
+.form_container div {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  font-size: 13px;
+  margin: 15px 0;
+}
+label {
+  width: 40%;
+  font-size: 13px;
+  text-align: start;
+}
+input {
+  height: 30px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  width: 100%;
+  padding: 3px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+select {
+  height: 37px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 10px;
+}
+select:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.icons_input {
+  display: flex;
+  flex-direction: column;
+}
+.icons_input_border {
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+}
+.input-error {
+  border: 1px solid rgba(229, 50, 44, 1);
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}
+.error-message {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  width: 100%;
+  color: #E5322C;
+  font-weight: 500;
+}
+.icons_input div input {
+  border: none;
+}
+.icons_input div svg {
+  opacity: .5;
+  margin-left: 5px;
+}
+.input-error svg {
+  color: #E5322C;
+}
+.hollow {
+  display: none;
+}
