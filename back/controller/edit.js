@@ -3,7 +3,6 @@ const Personal = require('../models/Personal');
 const Address = require('../models/Address');
 const Professional = require('../models/Professional');
 const { ValidationErrorItem } = require('sequelize');
-const sharp = require('sharp');
 
 exports.getUserData = async (req, res, next) => {
   const user = await User.findByPk(req.params.id);

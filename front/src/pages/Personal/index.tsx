@@ -31,8 +31,9 @@ const PersonalInformation = () => {
     const file = files && files[0];
     const reader = new FileReader();
 
-    reader.onload = () =>
-      setImg(reader.result as string);
+    reader.onload = () => {
+      setImg(reader.result as string)
+    };
 
     if (file) reader.readAsDataURL(file);
   }

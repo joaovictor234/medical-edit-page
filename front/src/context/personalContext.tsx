@@ -17,7 +17,6 @@ const PersonalProvider = ({ children }: Props) => {
   const [cns, setCns] = useState('');
 
   useEffect(() => {
-    console.log(process.env.REACT_APP_API_ENDPOINT)
     api.get('/personal/1')
       .then(response => {
         const data = response.data.personal;
@@ -31,13 +30,12 @@ const PersonalProvider = ({ children }: Props) => {
         setRg(data.rg);
         return data.img.data
       })
-      .then(img => {
-        const blob = new Blob(img, {type: 'image/jpg'});
-        const reader = new FileReader();
-        reader.onload = () => setImg(reader.result as string);
-        reader.readAsDataURL(blob);
-
-      })
+      /* .then(img => {
+        const uint8Array = new Uint8Array(img);
+        const base64String = Buffer.from(uint8Array).toString('base64');
+        setImg(`data:image/jpeg;base64,${base64String}`)
+        console.log(img)
+      }) */
       .catch(err => console.error(err));
   }, [])
 

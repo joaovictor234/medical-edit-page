@@ -10,12 +10,12 @@
   display: flex;
   align-items: center;
   width: 98%;
-  font-size: 13px;
+  font-size: 14px;
   margin: 15px 0;
 }
 label {
   width: 40%;
-  font-size: 13px;
+  font-size: 14px;
   text-align: start;
 }
 input {
@@ -23,9 +23,9 @@ input {
   border: 1px solid rgba(0,0,0,.2);
   border-radius: 5px;
   width: 100%;
-  padding: 3px;
+  padding: 3px 10px;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 select {
   height: 37px;
@@ -33,6 +33,7 @@ select {
   border-radius: 5px;
   width: 100%;
   margin-right: 10px;
+  padding: 5px 10px;
 }
 select:focus {
   outline: none;
